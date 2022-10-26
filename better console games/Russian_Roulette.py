@@ -14,13 +14,13 @@ print("You think over your life choices as it's spinning")
 
 print("You raise the gun to your head\n")
 
-#this is where the user number matches where the spinner lands on to deetermine if your dead
+#this is where the user number matches where the spinner lands on to determine if your dead
 spinner = random.randint(1, 6)
 
 #the spinner and number matches up
 if spinner == spin:
     print("The gun goes off. You are dead")
-    
+
 #if the numbers dont match
 if spinner != spin:
     print("The gun makes a clicking noise rendering you unharmed. You live to see another day")
